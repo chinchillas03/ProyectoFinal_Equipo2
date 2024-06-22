@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">proyecto_equipo2</string>
+    <string name="LogIn">Iniciar Sesión</string>
+    <string name="btnLogIn">Entrar</string>
+    <string name="rememberMe">Recuerdame</string>
+    <string name="btnSignUp">Regístrate</string>
+    <string name="SignUp">Registrarse</string>
+    <string name="btnCreate">Crear Cuenta</string>
+    <string name="password_forgotten">¿Olvidaste tu contraseña?</string>
+    <string name="already_registered">¿Ya tienes una cuenta?</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

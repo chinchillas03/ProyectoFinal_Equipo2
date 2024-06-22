@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Proyecto_equipo2" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lightblue</item>
+        <item name="colorPrimaryVariant">@color/cyan</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lightblue</item>
+        <item name="colorSecondaryVariant">@color/cyan</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <style name="Theme.Proyecto_equipo2" parent="Base.Theme.Proyecto_equipo2" />
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SignUp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/cyan"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Nombre"
+        android:id="@+id/etNombre"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Email"
+        android:id="@+id/etEmail"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Password"
+        android:id="@+id/etPassword"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Confirmar password"
+        android:id="@+id/etConfirmPassword"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/round_button"
+        android:text="@string/btnCreate"
+        android:id="@+id/btnCreate"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_registered"
+            android:layout_marginLeft="80sp"
+
+            />
+        <TextView
+            android:id="@+id/linkLogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LogIn"
+            android:textColor="@color/lightblue"
+            android:layout_marginLeft="5sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
