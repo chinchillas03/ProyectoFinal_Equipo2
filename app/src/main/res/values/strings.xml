@@ -12,6 +12,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="info_recuperar_contraseña">Por favor, ingresa el código de 4 digitos que se le envio al correo a*****a@gmail.com</string>
 
 
 </resources>

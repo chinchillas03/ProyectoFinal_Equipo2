@@ -13,54 +13,59 @@
         android:layout_height="wrap_content"
         android:text="@string/SignUp"
         android:textAlignment="center"
-        android:textSize="25sp"
-        android:layout_marginTop="150dp"
+        android:textSize="35sp"
+        android:layout_marginTop="50dp"
         android:textColor="@color/cyan"
         android:textStyle="bold" />
 
     <EditText
-        android:layout_width="200dp"
-        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:layout_marginLeft="100dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="50dp"
         android:hint="Nombre"
         android:id="@+id/etNombre"
         />
 
     <EditText
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="50dp"
         android:hint="Email"
         android:id="@+id/etEmail"
         />
 
     <EditText
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="50dp"
         android:hint="Password"
         android:id="@+id/etPassword"
         />
 
     <EditText
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="50dp"
         android:hint="Confirmar password"
         android:id="@+id/etConfirmPassword"
         />
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/round_button"
+        android:textSize="30sp"
         android:text="@string/btnCreate"
         android:id="@+id/btnCreate"
         />
@@ -73,6 +78,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15sp"
             android:text="@string/already_registered"
             android:layout_marginLeft="80sp"
 

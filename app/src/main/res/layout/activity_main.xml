@@ -13,26 +13,28 @@
         android:layout_height="wrap_content"
         android:text="@string/LogIn"
         android:textAlignment="center"
-        android:textSize="25sp"
-        android:layout_marginTop="150dp"
+        android:textSize="35sp"
+        android:layout_marginTop="100dp"
         android:textColor="@color/cyan"
         android:textStyle="bold"
         />
 
     <EditText
-        android:layout_width="200dp"
-        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="20sp"
         android:hint="Email"
         android:id="@+id/etEmail"
         />
 
     <EditText
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="50dp"
         android:hint="Password"
         android:id="@+id/etPassword"
         />
@@ -41,8 +43,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/checkRemember"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
         android:text="@string/rememberMe"
         android:textColor="@color/lightblue"
         android:textSize="15sp"
@@ -50,9 +52,10 @@
 
     <Button
         android:id="@+id/btnLogIn"
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="70dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/round_button"
@@ -68,6 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/password_forgotten"
+            android:textSize="15sp"
             android:layout_marginLeft="80sp"
 
             />
