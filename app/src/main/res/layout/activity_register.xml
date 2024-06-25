@@ -25,36 +25,40 @@
         android:textSize="20sp"
         android:layout_marginHorizontal="50dp"
         android:hint="Nombre"
+        android:background="@drawable/shape_drawable"
         android:id="@+id/etNombre"
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:textSize="20sp"
         android:layout_marginHorizontal="50dp"
         android:hint="Email"
+        android:background="@drawable/shape_drawable"
         android:id="@+id/etEmail"
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:textSize="20sp"
         android:layout_marginHorizontal="50dp"
-        android:hint="Password"
+        android:hint="Contraseña"
+        android:background="@drawable/shape_drawable"
         android:id="@+id/etPassword"
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:textSize="20sp"
         android:layout_marginHorizontal="50dp"
-        android:hint="Confirmar password"
+        android:hint="Confirmar contraseña"
+        android:background="@drawable/shape_drawable"
         android:id="@+id/etConfirmPassword"
         />
 
