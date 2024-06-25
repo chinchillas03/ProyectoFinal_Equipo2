@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
-            android:text="< Back"
+            android:text="\u003C Back"
             android:textSize="25sp"
             android:background="@android:color/transparent"
             android:textColor="@color/cyan"
