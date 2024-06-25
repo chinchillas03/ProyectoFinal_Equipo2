@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="< Back"
+            android:textSize="25sp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/cyan"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Editar perfil"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:textColor="@color/cyan"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_account_circle"/>
+
+        <Button
+            android:id="@+id/cambiarImagen"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:text="Cambiar imagen"
+            android:textSize="17sp"
+            android:background="@drawable/round_button"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp">
+
+        <TextView
+            android:id="@+id/nombreUsuario"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="Nombre usuario"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/cyan"/>
+
+        <ImageButton
+            android:id="@+id/btnEditarNombre"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_pencil"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="Email:"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/cyan"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="225dp"
+            android:layout_height="40dp"
+            android:text="correusuario@gmail.com"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/cyan"/>
+
+        <ImageButton
+            android:id="@+id/btnEditarCorreo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_pencil"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="Fecha de nacimiento:"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/cyan"/>
+
+        <TextView
+            android:id="@+id/fechaNacimiento"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="18/09/1998"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/cyan"/>
+
+        <ImageButton
+            android:id="@+id/btnEditarFecha"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_pencil"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cambiarPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar contraseña"
+        android:textSize="24sp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="80dp"
+        />
+
+</LinearLayout>
