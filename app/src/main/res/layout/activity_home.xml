@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="375dp"
         android:layout_marginTop="15dp"
-        android:src="@drawable/ic_user"
+
 
         />
     <TextView
@@ -55,7 +55,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ic_options"
                     android:layout_marginLeft="100dp"
                     />
 
@@ -72,7 +71,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="-20dp"
-                    android:background="@drawable/ic_excelent"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -128,7 +126,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ic_options"
                     android:layout_marginLeft="100dp"
                     />
 
@@ -145,7 +142,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="-20dp"
-                    android:background="@drawable/ic_neutral"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -201,7 +197,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ic_options"
                     android:layout_marginLeft="100dp"
                     />
 
