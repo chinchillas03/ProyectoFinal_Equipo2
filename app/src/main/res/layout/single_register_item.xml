@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DATE"
+                android:layout_marginLeft="120dp"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:id="@+id/dateTxt"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado de sueño"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/verygreen"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/sleepStateTxt"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="-20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horas de sueño"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/sleepHoursTxt"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Calorías consumidas"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginRight="15sp"
+                android:id="@+id/consumedCalsTxt"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peso"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/weigthTxt"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ejercicio realidado"
+                android:textSize="12sp"
+                android:layout_marginRight="15sp"
+                android:id="@+id/realizedExcerciseTxt"
+                />
+        </GridLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
