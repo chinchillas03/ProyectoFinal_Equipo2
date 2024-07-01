@@ -3,6 +3,7 @@ package equipo.dos.proyecto_equipo2
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -21,6 +22,9 @@ class HomeActivity : AppCompatActivity() {
 
         val navView: BottomNavigationView = binding.navView
 
+        val toolbar: Toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
         val navController = findNavController(R.id.nav_host_fragment_activity_home)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -31,5 +35,10 @@ class HomeActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.nav_host_fragment_activity_home)
+        return navController.navigateUp() || super.onSupportNavigateUp()
     }
 }

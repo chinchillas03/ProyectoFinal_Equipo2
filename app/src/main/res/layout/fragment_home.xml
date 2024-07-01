@@ -1,22 +1,258 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
 
+    <ImageButton
+        android:id="@+id/accountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:src="@drawable/ic_account_circle"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_gravity="right"
+        />
+
     <TextView
-        android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:text="Jesús Raúl Luna Bringas"
         android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13/06/2024"
+                    android:layout_marginLeft="155dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estado de sueño: Excelente"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/verygreen"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="-20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Horas de sueño: 8"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Cal. Consumidas: 5590"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peso: 72Kg"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Ejercicio realidado: 2 hr"
+                    android:textSize="12sp"
+                    android:layout_marginRight="15sp"
+                    />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12/06/2024"
+                    android:layout_marginLeft="155dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estado de sueño: Regular"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/yellow_gold"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="-20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Horas de sueño: 5"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Cal. Consumidas: 5590"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peso: 72Kg"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Ejercicio realidado: 2 hr"
+                    android:textSize="12sp"
+                    android:layout_marginRight="15sp"
+                    />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11/06/2024"
+                    android:layout_marginLeft="155dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estado de sueño: Excelente"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/strong_red"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="-20dp"
+                    android:background="@drawable/ic_bad"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Horas de sueño: 2"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Cal. Consumidas: 5590"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peso: 72Kg"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Ejercicio realidado: 2 hr"
+                    android:textSize="12sp"
+                    android:layout_marginRight="15sp"
+                    />
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

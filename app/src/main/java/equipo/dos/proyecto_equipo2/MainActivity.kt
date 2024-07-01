@@ -1,6 +1,5 @@
 package equipo.dos.proyecto_equipo2
 
-import HomeActivity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -37,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         tvSignUp.setOnClickListener {
-            val intent = Intent(this, Register_Activity::class.java)
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
     }

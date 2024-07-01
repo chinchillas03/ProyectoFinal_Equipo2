@@ -16,17 +16,17 @@
             android:name=".EditProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".perfilActivity"
+            android:name=".PerfilActivity"
             android:exported="false" />
         <activity
-            android:name=".changePassword"
+            android:name=".ChangePassword"
             android:exported="false" />
         <activity
-            android:name=".recoverPassword"
+            android:name=".RecoverPassword"
             android:exported="false" />
         <activity android:name=".HomeActivity"></activity>
         <activity
-            android:name=".Register_Activity"
+            android:name=".RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

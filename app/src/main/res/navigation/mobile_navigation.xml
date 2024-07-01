@@ -10,7 +10,6 @@
         android:name="equipo.dos.proyecto_equipo2.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
-        tools:layout="@layout/activity_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
